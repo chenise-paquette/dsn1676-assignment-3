@@ -23,12 +23,13 @@ body {
 }
 
 .astroid{
-    width: 200px;
     position: absolute;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     top: 200px;
     left: 200px;
     animation: box-rotate 8s ease-in-out infinite alternate;
+    transform-origin: center;
 }
     
     
@@ -43,3 +44,12 @@ body {
 }
     
 .ship{
+    
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    left: 200px;
+    animation: box-rotate 8s ease-in-out infinite alternate;
+    transform-origin: center;
+}
+    
